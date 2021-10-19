@@ -1,0 +1,10 @@
+!!this was tested on localhost only
+
+uncomment  $ip = $_SERVER['REMOTE_ADDR']; variable in maps/application/controller/Mapsapi.php > index function
+
+//if run at localhost
+$ip = '180.190.20.211'; <---- test ip only
+// $ip = $_SERVER['REMOTE_ADDR'];
+
+
+import db maps_test2.sql
